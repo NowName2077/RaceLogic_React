@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Kelly Slab';
+    src: url('./font/KellySlab-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body
+{
+    margin: 0;
+}
+
+.Font
+{   
+    text-decoration: none;
+    font-family:'Kelly Slab';
+    color:#ffffff;
+    /*display: none;*/
+}
+
+#foot
+{
+    overflow: hidden;
+    background-color: #0e100d;
+	display: flex;
+
+}
+
+.f-text {
+	color: #ffffff;
+    margin: auto;
+    font-size: 13px;
+}

@@ -1,0 +1,130 @@
+.Logo
+{
+    
+    display: block;
+    text-decoration: none;
+    background-color:#4C7389;
+    margin: 1% 1%;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+    padding: 5%;
+ 
+}
+.TEX
+{
+    display: none;
+}
+.Logo:hover
+{
+    background-color: #5494B5;
+    color:#ffffff;
+    margin: 1% 1%;
+    
+}
+
+.Logo:nth-child(1) 
+{
+    background-image: url(../../../../Image/Logo/Alfa\ Romeo.svg)
+    
+}
+.Logo:nth-child(2) 
+{
+    background-image: url(../../../../Image/Logo/Audi.svg)
+    
+}
+.Logo:nth-child(3) 
+{
+    background-image: url(../../../../Image/Logo/BMW.svg)
+    
+}
+.Logo:nth-child(4) 
+{
+    background-image: url(../../../../Image/Logo/Citroen.svg)
+    
+}
+.Logo:nth-child(5) 
+{
+    background-image: url(../../../../Image/Logo/Ford.svg)
+    
+}
+.Logo:nth-child(6) 
+{
+    background-image: url(../../../../Image/Logo/Honda.svg)
+    
+}
+.Logo:nth-child(7) 
+{
+    background-image: url(../../../../Image/Logo/Mazda.svg)
+    
+}
+.Logo:nth-child(8) 
+{
+    background-image: url(../../../../Image/Logo/Mercedes\ Benz.svg)
+    
+}
+.Logo:nth-child(9) 
+{
+    background-image: url(../../../../Image/Logo/Mitsubishi.svg)
+    
+}
+.Logo:nth-child(10) 
+{
+    background-image: url(../../../../Image/Logo/Nissan.svg)
+    
+}
+.Logo:nth-child(11) 
+{
+    background-image: url(../../../../Image/Logo/Peugeot.svg)
+    
+}
+.Logo:nth-child(12) 
+{
+    background-image: url(../../../../Image/Logo/Porsche.svg)
+    
+}
+.Logo:nth-child(13) 
+{
+    background-image: url(../../../../Image/Logo/Renault.svg)
+    
+}
+.Logo:nth-child(14) 
+{
+    background-image: url(../../../../Image/Logo/Subaru.svg)
+    
+}
+.Logo:nth-child(15) 
+{
+    background-image: url(../../../../Image/Logo/Toyota.svg)
+    
+}
+.Logo:nth-child(16) 
+{
+    background-image: url(../../../../Image/Logo/Volkswagen.svg)
+    
+}
+.txt
+{
+    display: none;
+}
+.Box 
+{
+    overflow: hidden;
+    color: #fffffff2;
+    background-color: #0f110e;
+    padding: 20px;
+    position: relative;
+}
+.b-menu
+{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Brands
+{
+    font-size: 200%; 
+}

@@ -1,0 +1,67 @@
+.Head
+{
+    background-color:#333;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas: 
+    "icon menu";
+    grid-template-rows: auto;
+    grid-template-columns: 20% auto;
+}
+
+.Icon
+{
+    font-size: 50px;
+    grid-area: icon;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu
+{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    grid-area: menu;
+    
+}
+.Nav{
+    
+    display: inline-block;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.Nav:hover
+{
+    background-color: #5494B5;
+    color: #111;    
+}
+.Nav:hover:not(.active)
+{
+    background-color: #5494B5;
+    color: #111;    
+}
+.Nav.active
+{
+    padding: 25px;
+    background-color: #004867;
+    color:#ffffff;
+}
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+.center
+{
+    text-align: center;
+}
