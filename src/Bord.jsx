@@ -1,6 +1,7 @@
 import React from 'react';
 import Menu from './Head/Menu';
 import Home from './Body/Home/Home'
+import Sport from './Body/Sport/Sport';
 
 class Bord extends React.Component
 {
@@ -10,6 +11,7 @@ class Bord extends React.Component
             <>
             <Menu />
             <Home />
+            <Sport />
             </>
         );
     }

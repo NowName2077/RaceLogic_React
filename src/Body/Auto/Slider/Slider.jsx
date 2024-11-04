@@ -1,11 +1,11 @@
 import React from 'react';
 import {Carousel} from 'react-bootstrap';
-import Audi from'../../../../Image/Slider/Home/AUDI.jpg';
-import Civic from'../../../../Image/Slider/Home/CIVIC.jpg';
-import Gtr from'../../../../Image/Slider/Home/GTR_32.jpg';
-import Porsche from'../../../../Image/Slider/Home/PORSCHE.jpg';
-import Subaru from'../../../../Image/Slider/Home/SUBARU.jpg';
-import Fairlady from'../../../../Image/Slider/Home/240_Z.jpg';
+import Audi from'../../../../Image/Slider/AUDI.jpg';
+import Civic from'../../../../Image/Slider/CIVIC.jpg';
+import Gtr from'../../../../Image/Slider/GTR_32.jpg';
+import Porsche from'../../../../Image/Slider/PORSCHE.jpg';
+import Subaru from'../../../../Image/Slider/SUBARU.jpg';
+import Fairlady from'../../../../Image/Slider/240_Z.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css'
 class Slider extends React.Component
 {

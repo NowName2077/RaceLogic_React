@@ -1,6 +1,6 @@
 import React from 'react';
-import Brands from './Main/Brands/Brands';
 import Slider from './Main/Slider/Slider';
+import Brands from './Main/Brands/Brands';
 import Picture from './Main/Picture/Picture';
 class Home extends React.Component
 {
