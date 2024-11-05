@@ -12,6 +12,7 @@ class Bord extends React.Component
             <Menu />
             <Home />
             <Sport />
+          
             </>
         );
     }

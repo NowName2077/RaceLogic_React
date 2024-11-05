@@ -1,0 +1,31 @@
+.List
+{
+    text-align: center;
+    overflow: hidden;
+    color: #fffffff2;
+    background-color: #0f110e;
+    padding: 1%;
+    position: relative;
+   
+}
+.Button
+{
+
+    display: block;
+    text-align: center;
+    font-size: 200%; 
+    background-color:#4C7389;
+    margin: 2% 4%;
+    display: inline-block;
+    width: 25%;
+    border-radius: 10%;
+    padding: 4%;
+ 
+}
+.Button:hover
+{
+    background-color: #5494B5;
+    color:#ffffff;
+    margin: 2% 4%;
+    
+}

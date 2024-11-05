@@ -1,11 +1,10 @@
 import React from 'react';
 import {Carousel} from 'react-bootstrap';
-import Audi from'../../../../Image/Slider/Home/AUDI.jpg';
-import Civic from'../../../../Image/Slider/Home/CIVIC.jpg';
-import Gtr from'../../../../Image/Slider/Home/GTR_32.jpg';
-import Porsche from'../../../../Image/Slider/Home/PORSCHE.jpg';
-import Subaru from'../../../../Image/Slider/Home/SUBARU.jpg';
-import Fairlady from'../../../../Image/Slider/Home/240_Z.jpg';
+import AMG from'../../../../Image/Slider/Sport/AMG.jpg';
+import GR from'../../../../Image/Slider/Sport/GR.jpg';
+import M_Technik from'../../../../Image/Slider/Sport/M-Technik.jpg';
+import NISMO from'../../../../Image/Slider/Sport/NISMO.jpg';
+import STI from'../../../../Image/Slider/Sport/STI.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css'
 class Slider extends React.Component
 {
@@ -15,32 +14,27 @@ class Slider extends React.Component
         <Carousel slide={true} wrap={true} controls={false}>
             <Carousel.Item interval={500}>
                 <img className="d-block w-100"
-                src={Audi}
+                src={AMG}
                 />
             </Carousel.Item>
             <Carousel.Item interval={1000}>
                 <img className='d-block w-100' 
-                src={Civic}
+                src={GR}
                 />
             </Carousel.Item>
             <Carousel.Item interval={1000}>
                 <img className='d-block w-100' 
-                src={Gtr}
+                src={M_Technik}
                 />
             </Carousel.Item>
             <Carousel.Item interval={1000}>
                 <img className='d-block w-100' 
-                src={Porsche}
+                src={NISMO}
                 />
             </Carousel.Item>
             <Carousel.Item interval={1000}>
                 <img className='d-block w-100' 
-                src={Subaru}
-                />
-            </Carousel.Item>
-            <Carousel.Item interval={1000}>
-                <img className='d-block w-100' 
-                src={Fairlady}
+                src={STI}
                 />
             </Carousel.Item>
         </Carousel>

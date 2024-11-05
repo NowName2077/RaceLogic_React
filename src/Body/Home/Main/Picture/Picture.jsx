@@ -6,7 +6,7 @@ class Picture extends React.Component
     {
         return (
             <div>
-            <img src={Back}/>
+            <img class = 'Pikch' src={Back}/>
             </div>
         );
     }

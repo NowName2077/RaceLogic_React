@@ -1,29 +1,29 @@
 import React from 'react';
+import'./List.css';
 class List extends React.Component
 {
     render()
     {
         return (
-        <table align="center"  width="100%" cellpadding="20">
-            <tr>
-                <th><a href="../tex.html"><div>STI</div></a></th>
-                <th><a href="../tex.html"><div>GR/TRD</div></a></th>
-                <th><a href="../tex.html"><div>NISMO</div></a></th>
-                <th><a href="../tex.html"><div>Mazdaspeed </div></a></th>
-            </tr>
-            <tr>
-                <th><a href="../tex2.html"><div>M-Technik</div></a></th>
-                <th><a href="../tex2.html"><div>GR/TRD</div></a></th>
-                <th><a href="../tex2.html"><div>Mercedes-AMG</div></a></th>
-                <th><a href="../tex2.html"><div>Audi Sport GmbH </div></a></th>
-            </tr>
-            <tr>
-                <th><a href="../tex3.html"><div> RENAULT SPORT TECHNOLOGIES</div></a></th>
-                <th><a href="../tex3.html"><div>Peugeot Sport </div></a></th>
-                <th><a href="../tex3.html"><div>SVT</div></a></th>
-                <th><a href="../tex3.html"><div>itsubishi Motorsport & Ralliart</div></a></th>
-            </tr>
-        </table>
+            <>
+        <div class="List">
+
+                <div class="Font Button"><text>STI</text></div>
+                <div class="Font Button"><text>GR/TRD</text></div>
+                <div class="Font Button"><text>NISMO</text></div>
+                <div class="Font Button"><text>Mazdaspeed</text></div>
+
+                <div class="Font Button"><text>M-Technik</text></div>
+                <div class="Font Button"><text>GR/TRD</text></div>
+                <div class="Font Button"><text>Mercedes-AMG</text></div>
+                <div class="Font Button"><text>Audi Sport</text></div>
+
+                <div class="Font Button"><text>RENAULT SPORT TECHNOLOGIES</text></div>
+                <div class="Font Button"><text>Peugeot Sport</text></div>
+                <div class="Font Button"><text>SVT</text></div>
+                <div class="Font Button"><text>itsubishi Motorsport & Ralliart</text></div>
+        </div>
+                </>
         )
     }
 }

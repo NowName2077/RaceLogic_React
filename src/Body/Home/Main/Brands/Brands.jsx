@@ -7,7 +7,7 @@ class Brands extends React.Component
         return (
             <div class='Box'>
             <span id="Brands" class="Font">Марки</span>
-            <div>
+            <div class='center'>
                 <div class='Logo'><test class='TEX'>Alfa Romeo</test></div>
              
                 <div class='Logo'><test class='TEX'>Audi</test></div>
