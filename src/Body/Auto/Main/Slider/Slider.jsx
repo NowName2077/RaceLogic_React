@@ -1,11 +1,11 @@
 import React from 'react';
 import {Carousel} from 'react-bootstrap';
-import Audi from'../../../../Image/Slider/AUDI.jpg';
-import Civic from'../../../../Image/Slider/CIVIC.jpg';
-import Gtr from'../../../../Image/Slider/GTR_32.jpg';
-import Porsche from'../../../../Image/Slider/PORSCHE.jpg';
-import Subaru from'../../../../Image/Slider/SUBARU.jpg';
-import Fairlady from'../../../../Image/Slider/240_Z.jpg';
+import Dodge from'../../../../Image/Slider/Auto/Dodge.jpg';
+import Ford from'../../../../Image/Slider/Auto/Ford.jpg';
+import Jaguar from'../../../../Image/Slider/Auto/Jaguar.jpg';
+import Lamborghini from'../../../../Image/Slider/Auto/Lamborghini.jpg';
+import Subaru from'../../../../Image/Slider/Auto/Subaru.jpg';
+import Volkswagen from'../../../../Image/Slider/Auto/Volkswagen.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css'
 class Slider extends React.Component
 {
@@ -15,22 +15,22 @@ class Slider extends React.Component
         <Carousel slide={true} wrap={true} controls={false}>
             <Carousel.Item interval={500}>
                 <img className="d-block w-100"
-                src={Audi}
+                src={Dodge}
                 />
             </Carousel.Item>
             <Carousel.Item interval={1000}>
                 <img className='d-block w-100' 
-                src={Civic}
+                src={Ford}
                 />
             </Carousel.Item>
             <Carousel.Item interval={1000}>
                 <img className='d-block w-100' 
-                src={Gtr}
+                src={Jaguar}
                 />
             </Carousel.Item>
             <Carousel.Item interval={1000}>
                 <img className='d-block w-100' 
-                src={Porsche}
+                src={Lamborghini}
                 />
             </Carousel.Item>
             <Carousel.Item interval={1000}>
@@ -40,7 +40,7 @@ class Slider extends React.Component
             </Carousel.Item>
             <Carousel.Item interval={1000}>
                 <img className='d-block w-100' 
-                src={Fairlady}
+                src={Volkswagen}
                 />
             </Carousel.Item>
         </Carousel>
