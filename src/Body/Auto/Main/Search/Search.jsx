@@ -1,32 +1,40 @@
 import React, { useState } from 'react';
 import { Dropdown } from 'primereact/dropdown';
-import './Search.css';  // Импортируем стили
+import './Search.css';
 
-export default function Search() {
+export default function Search() 
+{
     const [selectedBrand, setSelectedBrand] = useState(null);
     const [selectedModel, setSelectedModel] = useState(null);
 
-    const brands = [
+    const brands = 
+    [
         { label: 'BMW', value: 'BMW' },
         { label: 'Audi', value: 'Audi' },
         { label: 'Mercedes', value: 'Mercedes' }
     ];
 
-    const models = {
-        BMW: [
+    const models = 
+    {
+        BMW: 
+        [
             { label: 'X5', value: 'X5' },
             { label: 'X6', value: 'X6' }
         ],
-        Audi: [
+        Audi: 
+        [
             { label: 'A4', value: 'A4' },
             { label: 'Q7', value: 'Q7' }
         ],
-        Mercedes: [
+        Mercedes: 
+        [
             { label: 'C-Class', value: 'C-Class' },
             { label: 'E-Class', value: 'E-Class' }
         ]
     };
 
+
+    
     const handleBrandChange = (e) => {
         setSelectedBrand(e.value);
         setSelectedModel(null);  // сброс модели при изменении марки
@@ -40,6 +48,8 @@ export default function Search() {
             alert("Пожалуйста, выберите марку и модель.");
         }
     };
+
+
 
     return (
         <div className="card">

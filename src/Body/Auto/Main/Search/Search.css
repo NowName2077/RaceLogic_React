@@ -1,11 +1,13 @@
 .card {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;  
+    padding: 1%;
+    background:url(../../../../Image/BackGround/back.jpg);
+    display: grid;
+    grid-template-areas: 
+    "brand model";
 }
+
+
 
 /* Поля (input или dropdown) */
 .p-field {
@@ -29,12 +31,41 @@
     padding: 0.5rem;
     font-size: 1rem;
     background-color: #fff;
-    transition: border-color 0.3s ease;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Стиль для выпадающего списка при фокусе */
 .p-dropdown:focus {
     border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2); /* Добавляем свечение при фокусе */
+}
+
+/* Фон для выпадающих опций */
+.p-dropdown-panel {
+    background-color: #f4f4f4; /* Светлый фон для списка */
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Легкая тень для панели */
+}
+
+/* Стиль для каждой опции в списке */
+.p-dropdown-item {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    color: #333;
+    transition: background-color 0.2s ease;
+}
+
+/* Стиль для каждой опции при наведении */
+.p-dropdown-item:hover {
+    background-color: #007bff; /* Фон при наведении на опцию */
+    color: white; /* Цвет текста при наведении */
+}
+
+/* Фокус на элементах выпадающего списка */
+.p-dropdown-item:focus {
+    background-color: #0056b3;
+    color: white;
     outline: none;
 }
 
