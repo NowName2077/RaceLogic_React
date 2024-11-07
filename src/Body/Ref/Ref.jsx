@@ -1,6 +1,6 @@
 import React from 'react';
 import Picture from './Picture/Picture';
-class Race extends React.Component
+class Ref extends React.Component
 {
     render()
     {
@@ -11,4 +11,4 @@ class Race extends React.Component
         )
     }
 }
-export default Race;
+export default Ref;
