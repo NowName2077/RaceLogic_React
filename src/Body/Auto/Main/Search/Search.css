@@ -1,86 +1,70 @@
-.card {
+.Card {
     width: 100%;  
     padding: 1%;
+    
     background:url(../../../../Image/BackGround/back.jpg);
     display: grid;
     grid-template-areas: 
     "brand model";
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
 }
 
 
 
 /* Поля (input или dropdown) */
-.p-field {
-    margin-bottom: 1rem;
+.Field {
+    margin: 1%;
 }
 
-/* Стиль для метки */
-.p-field label {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 0.5rem;
-    display: block;
-}
 
 /* Стиль для выпадающих списков (dropdown) */
-.p-dropdown {
+.DropList {
     width: 100%;
     border-radius: 4px;
-    border: 1px solid #ccc;
-    padding: 0.5rem;
-    font-size: 1rem;
+    padding: 2%;
     background-color: #fff;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Стиль для выпадающего списка при фокусе */
-.p-dropdown:focus {
-    border-color: #007bff;
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2); /* Добавляем свечение при фокусе */
+    
 }
 
 /* Фон для выпадающих опций */
 .p-dropdown-panel {
-    background-color: #f4f4f4; /* Светлый фон для списка */
+    background-color: #c2c2c2; /* Светлый фон для списка */
     border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Легкая тень для панели */
 }
 
 /* Стиль для каждой опции в списке */
 .p-dropdown-item {
-    padding: 0.8rem 1rem;
-    font-size: 1rem;
+    padding: 2%;
+    width: 30%;  
+    font-size: 100%;
     color: #333;
-    transition: background-color 0.2s ease;
 }
 
 /* Стиль для каждой опции при наведении */
-.p-dropdown-item:hover {
-    background-color: #007bff; /* Фон при наведении на опцию */
-    color: white; /* Цвет текста при наведении */
+.p-dropdown-item:hover 
+{
+    border-radius: 10px;
+    background-color: #007bff; 
+    color: #fff;
 }
 
 /* Фокус на элементах выпадающего списка */
-.p-dropdown-item:focus {
+.p-dropdown-item:focus 
+{
+    border-radius: 10px;
     background-color: #0056b3;
-    color: white;
+    color: #fff;
     outline: none;
 }
 
 /* Кнопка */
 button {
+    width: 40%;
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100%;
-    margin-top: 1rem;
+
 }
 
 /* Кнопка при наведении */
@@ -90,6 +74,7 @@ button:hover {
 
 /* Вывод информации */
 .selected-info {
+    width: 40%;
     margin-top: 1rem;
     padding: 1rem;
     background-color: #e7f7ff;

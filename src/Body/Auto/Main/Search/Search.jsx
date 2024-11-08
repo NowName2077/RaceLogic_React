@@ -52,30 +52,28 @@ export default function Search()
 
 
     return (
-        <div className="card">
-            <div className="p-field">
-                <label htmlFor="brand">Марка</label>
+        <div class = 'Card'>
+            <div class ='Field'>
                 <Dropdown 
                     id="brand"
                     value={selectedBrand} 
                     onChange={handleBrandChange} 
                     options={brands} 
                     optionLabel="label" 
-                    placeholder="Выберите марку" 
-                    className="p-dropdown"
+                    placeholder="Марка" 
+                    className = 'DropList'
                 />
             </div>
 
-            <div className="p-field">
-                <label htmlFor="model">Модель</label>
+            <div class ='Field'>
                 <Dropdown 
                     id="model"
                     value={selectedModel} 
                     onChange={(e) => setSelectedModel(e.value)} 
                     options={selectedBrand ? models[selectedBrand] : []} 
                     optionLabel="label" 
-                    placeholder="Выберите модель" 
-                    className="p-dropdown"
+                    placeholder="Модель" 
+                    className = 'DropList'
                     disabled={!selectedBrand} 
                 />
             </div>

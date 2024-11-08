@@ -1,12 +1,13 @@
 import React from 'react';
 import Back from '../../../../Image/BackGround/Back-Bottom.jpg';
+import './Picture.css'
 class Picture extends React.Component
 {
     render()
     {
         return (
             <div>
-            <img class = 'Pikch' src={Back}/>
+            <img class = 'Picture' src={Back}/>
             </div>
         );
     }
